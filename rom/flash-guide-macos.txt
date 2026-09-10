@@ -1,0 +1,11 @@
+解压
+	unzip platform-tools-latest-darwin.zip
+移动文件
+	mv platform-tools ~/android-platform-tools
+配置环境变量
+	echo 'export PATH=$PATH:~/android-platform-tools' >> ~/.zshrc
+使之生效
+	source ~/.zshrc
+
+验证，下面命令应输出版本信息
+	adb version

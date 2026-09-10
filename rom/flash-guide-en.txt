@@ -1,0 +1,5 @@
+##### Device boot #####
+1.Please install the usb driver for the first flashing, double-click to run adb-setup-1.4.4.exe, and then enter Y for all options until the installation is complete
+2.Please do not flash the device when the device is low in power, and please keep more than 40% of the device's power
+3.In the boot state, run the script 920_fastboot_all.bat, the device will automatically restart and enter the flashing mode
+4.Wait for the script to show the "fastboot success" field, indicating that the flashing is successful, and the device will automatically restart and enter the system

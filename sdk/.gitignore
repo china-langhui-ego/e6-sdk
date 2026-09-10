@@ -1,0 +1,38 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.idea/
+3rdlibs/build
+/dataset/
+/dataset_*.mp4
+# dataset_analysis/: track only the .py/.sh analysis scripts; ignore
+# everything else under it (recorded data, caches, reports, logs, date-dirs).
+dataset_analysis/*
+!dataset_analysis/*.py
+!dataset_analysis/*.sh
+dataset_analysis/__pycache__/
+dataset_analysis/report/
+dataset_analysis/*.log
+dataset_analysis/20*
+openspec/
+.claude/
+.worktrees/
+rgb.mp4
+tests
+tests/build/
+# FMP4Writer host-test artifacts (tests/fmp4_writer_test.cpp writes to CWD)
+/out_*.mp4
+/out_*.m4a
+graphify-out/
